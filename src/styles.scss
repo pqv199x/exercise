@@ -8,3 +8,28 @@ table th td {
   padding: 4px;
   border-collapse: collapse;
 }
+.tab-bar {
+  background-color: white;
+  height: 50px;
+  vertical-align: middle;
+  color: white;
+}
+.name {
+  float: left;
+}
+.tabs {
+  color: white;
+  float: right;
+}
+.row-code {
+  color: cornflowerblue;
+}
+.row-company {
+  color: cadetblue;
+}
+.red {
+  color: red
+}
+.black {
+  color: green
+}

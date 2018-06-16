@@ -45,10 +45,11 @@ module.exports = {
         },
       },
       {
-        test: /\.s?[ac]ss$/,
+        test: /\.(sa|sc|c)ss$/,
         use: [
           devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
           'css-loader',
+          'postcss-loader',
           'sass-loader',
         ],
       },

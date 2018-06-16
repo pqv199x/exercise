@@ -1,0 +1,250 @@
+[
+  {
+      "code": "BTC.AX",
+      "name": "Buttcoin",
+      "price": "30.01",
+      "volume": "1000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "ETH.AX",
+      "name": "Etherium",
+      "price": "31.01",
+      "volume": "2000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "NEO.AX",
+      "name": "Neo coin",
+      "price": "32.01",
+      "volume": "3000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "ETH.AX",
+      "name": "Electronium",
+      "price": "33.01",
+      "volume": "4000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "XLM.AX",
+      "name": "Stellar",
+      "price": "34.01",
+      "volume": "5000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "TOMO.AX",
+      "name": "Tomo chain",
+      "price": "35.01",
+      "volume": "6000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "GCC.AX",
+      "name": "Global cryptocurrency",
+      "price": "36.01",
+      "volume": "7000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "BCH.AX",
+      "name": "Buttcoin cash",
+      "price": "37.01",
+      "volume": "8000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "EOS.AX",
+      "name": "EOS",
+      "price": "38.01",
+      "volume": "9000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "ADA.AX",
+      "name": "Cardano",
+      "price": "39.01",
+      "volume": "10000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "MIOTA.AX",
+      "name": "IOTA",
+      "price": "40.01",
+      "volume": "1000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "TRX.AX",
+      "name": "TRON",
+      "price": "41.01",
+      "volume": "2000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "USDT.AX",
+      "name": "USDT",
+      "price": "42.01",
+      "volume": "3000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "DASH.AX",
+      "name": "DASH",
+      "price": "43.01",
+      "volume": "4000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "XMR.AX",
+      "name": "MORENO",
+      "price": "44.01",
+      "volume": "5000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "ETC.AX",
+      "name": "Etherium classic",
+      "price": "45.01",
+      "volume": "6000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "ZEC.TN",
+      "name": "Zcash",
+      "price": "30.01",
+      "volume": "1000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "LS.TN",
+      "name": "Lisk",
+      "price": "31.01",
+      "volume": "2000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "XVG.TN",
+      "name": "The verge",
+      "price": "32.01",
+      "volume": "3000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "ARK.TN",
+      "name": "Ark",
+      "price": "33.01",
+      "volume": "4000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "LINK.TN",
+      "name": "Link",
+      "price": "34.01",
+      "volume": "5000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "PIVX.TN",
+      "name": "PIVX",
+      "price": "35.01",
+      "volume": "6123",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "XZC.TN",
+      "name": "Zcoin",
+      "price": "36.01",
+      "volume": "7000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "SMART.TN",
+      "name": "Smart",
+      "price": "37.01",
+      "volume": "8000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "R.TN",
+      "name": "Revain",
+      "price": "38.01",
+      "volume": "9000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "NAV.TN",
+      "name": "NavCoin",
+      "price": "39.01",
+      "volume": "10000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "XSN.TN",
+      "name": "Stakenet",
+      "price": "40.01",
+      "volume": "1000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "BTX.TN",
+      "name": "Buttcore",
+      "price": "41.01",
+      "volume": "2000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "BITG.TN",
+      "name": "Buttgreen",
+      "price": "42.01",
+      "volume": "3000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "CAPP.TN",
+      "name": "Cappasity",
+      "price": "43.01",
+      "volume": "4000",
+      "change": "--",
+      "percentChange": "0"
+  },
+  {
+      "code": "IDH.TN",
+      "name": "IndaHash",
+      "price": "44.01",
+      "volume": "5000",
+      "change": "--",
+      "percentChange": "0"
+  }
+]

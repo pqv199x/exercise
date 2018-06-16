@@ -1,5 +1,8 @@
 const path = require('path');
 const webpack = require('webpack');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
+const devMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
   mode: 'development',
@@ -15,6 +18,10 @@ module.exports = {
     // disable 'Download the React DevTools for a better development experience' message
     new webpack.DefinePlugin({
       '__REACT_DEVTOOLS_GLOBAL_HOOK__': '({ isDisabled: true })',
+    }),
+    new MiniCssExtractPlugin({
+      filename: devMode ? '[name].css' : '[name].[hash].css',
+      chunkFilename: devMode ? '[id].css' : '[id].[hash].css',
     }),
   ],
   // split bundle
@@ -36,6 +43,14 @@ module.exports = {
         query: {
           presets: ['react', 'env'],
         },
+      },
+      {
+        test: /\.s?[ac]ss$/,
+        use: [
+          devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
+          'css-loader',
+          'sass-loader',
+        ],
       },
     ],
   },

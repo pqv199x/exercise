@@ -59,3 +59,8 @@ typings/
 
 # next.js build output
 .next
+
+# static
+static/app.bundle.js
+static/vendor.bundle.js
+

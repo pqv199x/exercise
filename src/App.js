@@ -10,8 +10,8 @@ function getRandomInt(min, max) {
 
 const Row = props => (
   <tr>
-    <td className="row-code">{props.value.code}</td>
-    <td className="row-company">{props.value.company}</td>
+    <td className="code">{props.value.code}</td>
+    <td className="company">{props.value.company}</td>
     <td>{props.value.price}</td>
     <td>{(props.value.volume * props.value.price).toLocaleString()}</td>
     <td className={props.value.change < 0 ? 'red' : 'green'}>{props.value.change.toLocaleString()}</td>
@@ -128,12 +128,12 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <div className="tab-bar">
+        <div className="tabBar">
           <p className="name">S&P/ASX</p>
           <p className="tabs" onClick={this.gainers}>TOP GAINERS</p>
           <p className="tabs" onClick={this.losers}>TOP LOSERS</p>
         </div>
-        <Table values={this.state.values}/>
+        <div><Table values={this.state.values}/></div>
       </div>
     );
   }

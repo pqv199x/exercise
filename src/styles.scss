@@ -1,4 +1,5 @@
 .header {
+  background-color: blueviolet;
   color: #ccc;
   text-align: left;
   font-size: 16px;
@@ -8,7 +9,7 @@ table th td {
   padding: 4px;
   border-collapse: collapse;
 }
-.tab-bar {
+.tabBar {
   background-color: white;
   height: 50px;
   vertical-align: middle;
@@ -21,15 +22,15 @@ table th td {
   color: white;
   float: right;
 }
-.row-code {
+.code {
   color: cornflowerblue;
 }
-.row-company {
+.company {
   color: cadetblue;
 }
 .red {
   color: red
 }
-.black {
+.green {
   color: green
 }
